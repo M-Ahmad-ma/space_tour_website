@@ -47,7 +47,6 @@ function Crew() {
     const imageRef = useRef(null);
 
     useEffect(() => {
-        // Animate the elements when the activeCrew changes
         gsap.fromTo(roleRef.current, { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 1 });
         gsap.fromTo(nameRef.current, { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 1 });
         gsap.fromTo(descriptionRef.current, { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 1 });
