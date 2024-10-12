@@ -3,7 +3,6 @@ import { gsap } from 'gsap';
 import Navigation from './Navigation';
 import bgImage from '../assets/images/crew/background-crew-desktop.jpg';
 import member1 from '../assets/images/crew/image-douglas-hurley.png';
-// Add the correct imports for the other crew members here
 import member2 from '../assets/images/crew/image-mark-shuttleworth.png';
 import member3 from '../assets/images/crew/image-victor-glover.png';
 import member4 from '../assets/images/crew/image-anousheh-ansari.png';
